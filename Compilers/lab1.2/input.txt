@@ -1,0 +1,16 @@
+count+12
+abc.1,5.3
+1a
+test.value
+123
+45.67
+.242
++
+,
+.
+@hello@
+@hello@@world@
+@a b c@
+12+34.5,test
+@notstring
+int.32  uint.65, int.1, uint.5, int.111
