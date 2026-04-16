@@ -1,5 +1,0 @@
-program Hello;
-
-{{
-  WriteLn('Hello');
-}}.
