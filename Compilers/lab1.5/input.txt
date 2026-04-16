@@ -1,0 +1,17 @@
+123
+00123
+101b
+111b
+
+?*|
+?|12
+*??123
+
+`hello`
+`multi
+line string`
+
+a
+
+`hello{A}world`
+`digits {30} {31}`,
