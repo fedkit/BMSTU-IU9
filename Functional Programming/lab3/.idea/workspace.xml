@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69354fad-233f-4966-98b0-b319bfba0163" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Numerical methods/lab1/lab1_kitanin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Numerical methods/lab3/lab3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PP/lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PP/lab4/Lab4/Lab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PP/lab5/Lab5_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PP/lab5/Lab5_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/lab1/lab1.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/lab1/lab1.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/lab2/.~lock.lab_2_kitanin.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/lab3/.$lab3.drawio.bkp" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/lab3/.$lab3.drawio.bkp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DB/lab3/lab3.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../../DB/lab3/lab3.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PP/lab2/.ipynb_checkpoints/lab2-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PP/lab2/answer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PP/lab2/lab2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PP/lab2/lab2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PP/lab2/run_all.sh" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3BkNjT8f09WvgPojLy1R4BFxkUT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Test.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/fedor/BMSTU/OFP/lab3"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69354fad-233f-4966-98b0-b319bfba0163" name="Changes" comment="" />
+      <created>1775029243113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775029243113</updated>
+    </task>
+    <servers />
+  </component>
+</project>
