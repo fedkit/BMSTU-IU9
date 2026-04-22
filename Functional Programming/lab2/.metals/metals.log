@@ -1,0 +1,985 @@
+2026.04.15 11:11:30 INFO  Started: Metals version 1.6.7 in folders '/home/fedor/BMSTU/OFP/lab2' for client Visual Studio Code 1.113.0.
+2026.04.15 11:11:30 INFO  Memory monitor started
+2026.04.15 11:11:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.15 11:11:30 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.15 11:11:32 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.15 11:11:33 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2026.04.15 11:11:34 INFO  Running List(/home/fedor/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%252B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.18_8.tar.gz/jdk-17.0.18+8/bin/java, -cp, /home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.12.4/cli_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0/case-app_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.25-M23/coursier-launcher_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.25-M23/coursier-proxy-setup-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_3/0.4.4/publish_3-0.4.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.1/jimfs-1.3.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.38.8/jsoniter-scala-core_3-2.38.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_3/0.18.2/metaconfig-typesafe-config_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.5/python-native-libs_3-0.2.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_3/0.2.1/scala-packager_3-0.2.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.13/cli_3-0.2.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.17/slf4j-nop-2.0.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_3/3.11.0/core_3-3.11.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.14.5/scalafix-interfaces-0.14.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.9.1/scala3-graal_3-1.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal-processor_3/1.9.1/scala3-graal-processor_3-1.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.7/scala3-library_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.12.4/build-module_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.12.4/config_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.12.4/specification-level_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.3-M5/sourcecode_3-0.4.3-M5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0/case-app-annotations_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0/case-app-util_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.18/scala-library-2.13.18.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.25-M23/coursier-cache_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.25-M23/coursier-core_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-core_3/0.18.2/metaconfig-core_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.5/config-1.4.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.14.0/scala-collection-compat_3-2.14.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.27.3/jib-core-0.27.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.11.8/os-lib_3-0.11.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.83/bcpg-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.83/bcutil-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.13/shared_3-0.2.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_3/1.7.11/core_3-1.7.11.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_3/1.3.22/core_3-1.3.22.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_3/1.3.22/ws_3-1.3.22.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/interface/1.0.28/interface-1.0.28.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.9/java-class-name_3-0.1.9.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-shared_2.13/4.15.2/semanticdb-shared_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.10/test-runner_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.5/pprint_3-0.9.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_3/1.5.0/scalajs-env-nodejs_3-1.5.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.20.2/scalajs-sbt-test-adapter_2.13-1.20.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.3/zip-input-stream-0.1.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.12.4/options_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.12.4/directives_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.12.4/scala-cli-bsp-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.12.4/test-runner_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.12.4/tasty-lib_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.6/windows-ansi-0.0.6.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/cache-util/2.1.25-M23/cache-util-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-paths/2.1.25-M23/coursier-paths-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.25-M23/coursier-util_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/versions_2.13/0.5.1/versions_2.13-0.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.4.0/scala-xml_2.13-2.4.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-pprint_3/0.18.2/metaconfig-pprint_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.4/paiges-core_3-0.4.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.18/scala-reflect-2.13.18.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.42.2/google-http-client-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.42.2/google-http-client-apache-v2-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/1.10.0/google-auth-library-oauth2-http-1.10.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.1/geny_3-1.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-zip/0.11.8/os-zip-0.11.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.83/bcprov-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jni/3.25.0/jline-terminal-jni-3.25.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-native/3.25.0/jline-native-3.25.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.7/scala3-compiler_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.15.2/scalameta_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.15/scalap-2.13.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.17/scalapb-runtime_2.13-0.11.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.10/tools_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.1/fansi_3-0.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_3/1.5.0/scalajs-js-envs_3-1.5.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.3.3/bloop-config_2.13-2.3.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.12.4/core_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.4/using_directives-1.1.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.12.4/build-macros_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/is-terminal/0.1.2/is-terminal-0.1.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/1.10.0/google-auth-library-credentials-1.10.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-gson/1.42.2/google-http-client-gson-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.7/scala3-interfaces-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.7/tasty-core_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.8.0-scala-1/scala-asm-9.8.0-scala-1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.15.2/parsers_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.17/lenses_2.13-0.11.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.10/nir_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.10/util_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_3/1.2.0/scalajs-logging_3-1.2.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-rifle_2.13/2.0.19/bloop-rifle_2.13-2.0.19.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.25-M23/coursier-jvm_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.3.2/dependency_3-0.3.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/7.5.0.202512021534-r/org.eclipse.jgit-7.5.0.202512021534-r.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.1/scalajs-env-jsdom-nodejs_2.13-1.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.15.2/trees_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/libdaemon_2.13/0.0.12/libdaemon_2.13-0.0.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.25-M23/coursier_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-archive-cache_2.13/2.1.25-M23/coursier-archive-cache_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.25-M23/coursier-env_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-exec/2.1.25-M23/coursier-exec-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.15.2/common_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/io_2.13/4.15.2/io_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.1/plexus-archiver-4.10.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/tika/tika-core/3.2.3/tika-core-3.2.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-4/zstd-jni-1.5.7-4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.10/xz-1.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar, scala.cli.ScalaCli, bsp, /home/fedor/BMSTU/OFP/lab2)
+2026.04.15 11:11:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/fedor/BMSTU/OFP/lab2/.metals/bsp.trace.json or /home/fedor/.cache/metals/bsp.trace.json
+2026.04.15 11:11:37 INFO  Connected to Scala CLI server v1.12.4
+2026.04.15 11:11:38 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:11:38 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.15 11:11:38 INFO  time: compiled lab2_d5c0a6989e in 0.98s
+апр. 15, 2026 11:11:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2026.04.15 11:11:39 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.15 11:11:40 INFO  time: indexed workspace in 3.13s
+2026.04.15 11:11:40 INFO  Scala CLI started for /home/fedor/BMSTU/OFP/lab2
+2026.04.15 11:11:40 WARN  no build tool detected in workspace '/home/fedor/BMSTU/OFP/lab2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.04.15 11:11:41 WARN  Build server is not auto-connectable.
+апр. 15, 2026 11:11:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+апр. 15, 2026 11:11:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+апр. 15, 2026 11:11:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.15 11:18:13 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:18:13 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+апр. 15, 2026 11:21:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 70
+2026.04.15 11:21:46 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:21:46 INFO  time: compiled lab2_d5c0a6989e in 0.4s
+2026.04.15 11:23:12 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:23:12 INFO  time: compiled lab2_d5c0a6989e in 0.15s
+2026.04.15 11:23:58 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:23:58 INFO  time: compiled lab2_d5c0a6989e in 0.33s
+2026.04.15 11:39:52 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:39:52 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.15 11:39:56 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:39:56 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.15 11:39:58 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:39:58 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.15 11:40:00 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:40:00 INFO  time: compiled lab2_d5c0a6989e in 0.17s
+2026.04.15 11:40:01 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:40:01 INFO  time: compiled lab2_d5c0a6989e in 0.16s
+2026.04.15 11:40:04 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:40:04 INFO  time: compiled lab2_d5c0a6989e in 0.19s
+2026.04.15 11:40:17 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:40:17 INFO  time: compiled lab2_d5c0a6989e in 0.15s
+2026.04.15 11:40:22 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:40:22 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.15 11:40:24 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.15 11:40:24 INFO  time: compiled lab2_d5c0a6989e in 0.17s
+2026.04.15 11:41:11 INFO  Shut down connection with build server.
+2026.04.19 22:28:20 INFO  Started: Metals version 1.6.7 in folders '/home/fedor/BMSTU/OFP/lab2' for client Visual Studio Code 1.113.0.
+2026.04.19 22:28:20 INFO  Memory monitor started
+2026.04.19 22:28:20 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.19 22:28:20 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.19 22:28:22 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.19 22:28:22 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.19 22:28:22 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.19 22:28:22 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.19 22:28:23 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2026.04.19 22:28:23 INFO  Running List(/home/fedor/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%252B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.18_8.tar.gz/jdk-17.0.18+8/bin/java, -cp, /home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.12.4/cli_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0/case-app_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.25-M23/coursier-launcher_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.25-M23/coursier-proxy-setup-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_3/0.4.4/publish_3-0.4.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.1/jimfs-1.3.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.38.8/jsoniter-scala-core_3-2.38.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_3/0.18.2/metaconfig-typesafe-config_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.5/python-native-libs_3-0.2.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_3/0.2.1/scala-packager_3-0.2.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.13/cli_3-0.2.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.17/slf4j-nop-2.0.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_3/3.11.0/core_3-3.11.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.14.5/scalafix-interfaces-0.14.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.9.1/scala3-graal_3-1.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal-processor_3/1.9.1/scala3-graal-processor_3-1.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.7/scala3-library_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.12.4/build-module_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.12.4/config_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.12.4/specification-level_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.3-M5/sourcecode_3-0.4.3-M5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0/case-app-annotations_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0/case-app-util_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.18/scala-library-2.13.18.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.25-M23/coursier-cache_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.25-M23/coursier-core_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-core_3/0.18.2/metaconfig-core_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.5/config-1.4.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.14.0/scala-collection-compat_3-2.14.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.27.3/jib-core-0.27.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.11.8/os-lib_3-0.11.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.83/bcpg-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.83/bcutil-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.13/shared_3-0.2.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_3/1.7.11/core_3-1.7.11.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_3/1.3.22/core_3-1.3.22.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_3/1.3.22/ws_3-1.3.22.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/interface/1.0.28/interface-1.0.28.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.9/java-class-name_3-0.1.9.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-shared_2.13/4.15.2/semanticdb-shared_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.10/test-runner_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.5/pprint_3-0.9.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_3/1.5.0/scalajs-env-nodejs_3-1.5.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.20.2/scalajs-sbt-test-adapter_2.13-1.20.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.3/zip-input-stream-0.1.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.12.4/options_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.12.4/directives_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.12.4/scala-cli-bsp-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.12.4/test-runner_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.12.4/tasty-lib_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.6/windows-ansi-0.0.6.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/cache-util/2.1.25-M23/cache-util-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-paths/2.1.25-M23/coursier-paths-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.25-M23/coursier-util_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/versions_2.13/0.5.1/versions_2.13-0.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.4.0/scala-xml_2.13-2.4.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-pprint_3/0.18.2/metaconfig-pprint_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.4/paiges-core_3-0.4.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.18/scala-reflect-2.13.18.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.42.2/google-http-client-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.42.2/google-http-client-apache-v2-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/1.10.0/google-auth-library-oauth2-http-1.10.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.1/geny_3-1.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-zip/0.11.8/os-zip-0.11.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.83/bcprov-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jni/3.25.0/jline-terminal-jni-3.25.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-native/3.25.0/jline-native-3.25.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.7/scala3-compiler_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.15.2/scalameta_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.15/scalap-2.13.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.17/scalapb-runtime_2.13-0.11.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.10/tools_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.1/fansi_3-0.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_3/1.5.0/scalajs-js-envs_3-1.5.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.3.3/bloop-config_2.13-2.3.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.12.4/core_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.4/using_directives-1.1.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.12.4/build-macros_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/is-terminal/0.1.2/is-terminal-0.1.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/1.10.0/google-auth-library-credentials-1.10.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-gson/1.42.2/google-http-client-gson-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.7/scala3-interfaces-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.7/tasty-core_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.8.0-scala-1/scala-asm-9.8.0-scala-1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.15.2/parsers_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.17/lenses_2.13-0.11.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.10/nir_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.10/util_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_3/1.2.0/scalajs-logging_3-1.2.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-rifle_2.13/2.0.19/bloop-rifle_2.13-2.0.19.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.25-M23/coursier-jvm_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.3.2/dependency_3-0.3.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/7.5.0.202512021534-r/org.eclipse.jgit-7.5.0.202512021534-r.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.1/scalajs-env-jsdom-nodejs_2.13-1.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.15.2/trees_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/libdaemon_2.13/0.0.12/libdaemon_2.13-0.0.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.25-M23/coursier_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-archive-cache_2.13/2.1.25-M23/coursier-archive-cache_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.25-M23/coursier-env_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-exec/2.1.25-M23/coursier-exec-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.15.2/common_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/io_2.13/4.15.2/io_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.1/plexus-archiver-4.10.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/tika/tika-core/3.2.3/tika-core-3.2.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-4/zstd-jni-1.5.7-4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.10/xz-1.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar, scala.cli.ScalaCli, bsp, /home/fedor/BMSTU/OFP/lab2)
+2026.04.19 22:28:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/fedor/BMSTU/OFP/lab2/.metals/bsp.trace.json or /home/fedor/.cache/metals/bsp.trace.json
+2026.04.19 22:28:27 INFO  Scala CLI: Starting compilation server
+2026.04.19 22:28:28 INFO  Shutting down server
+2026.04.19 22:28:28 INFO  Memory monitor stopped
+2026.04.19 22:28:28 INFO  shutting down Metals
+2026.04.19 22:28:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.19 22:28:30 INFO  Connected to Scala CLI server v1.12.4
+2026.04.19 22:28:30 INFO  Shut down connection with build server.
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6234d461[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 350]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026.04.22 12:20:53 INFO  Started: Metals version 1.6.7 in folders '/home/fedor/BMSTU/OFP/lab2' for client Visual Studio Code 1.113.0.
+2026.04.22 12:20:53 INFO  Memory monitor started
+2026.04.22 12:20:53 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.22 12:20:53 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:05 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:05 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:05 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:05 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:05 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+апр. 22, 2026 12:21:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.04.22 12:21:05 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:05 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+апр. 22, 2026 12:21:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2026.04.22 12:21:05 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:06 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2026.04.22 12:21:07 INFO  Running List(/home/fedor/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%252B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.18_8.tar.gz/jdk-17.0.18+8/bin/java, -cp, /home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.12.4/cli_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0/case-app_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.25-M23/coursier-launcher_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.25-M23/coursier-proxy-setup-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_3/0.4.4/publish_3-0.4.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.1/jimfs-1.3.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.38.8/jsoniter-scala-core_3-2.38.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_3/0.18.2/metaconfig-typesafe-config_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.5/python-native-libs_3-0.2.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_3/0.2.1/scala-packager_3-0.2.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.13/cli_3-0.2.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.17/slf4j-nop-2.0.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_3/3.11.0/core_3-3.11.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.14.5/scalafix-interfaces-0.14.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.9.1/scala3-graal_3-1.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal-processor_3/1.9.1/scala3-graal-processor_3-1.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.7/scala3-library_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.12.4/build-module_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.12.4/config_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.12.4/specification-level_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.3-M5/sourcecode_3-0.4.3-M5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0/case-app-annotations_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0/case-app-util_3-2.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.18/scala-library-2.13.18.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.25-M23/coursier-cache_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.25-M23/coursier-core_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-core_3/0.18.2/metaconfig-core_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.5/config-1.4.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.14.0/scala-collection-compat_3-2.14.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.27.3/jib-core-0.27.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.11.8/os-lib_3-0.11.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.83/bcpg-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.83/bcutil-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.13/shared_3-0.2.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_3/1.7.11/core_3-1.7.11.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_3/1.3.22/core_3-1.3.22.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_3/1.3.22/ws_3-1.3.22.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/interface/1.0.28/interface-1.0.28.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.9/java-class-name_3-0.1.9.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-shared_2.13/4.15.2/semanticdb-shared_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.10/test-runner_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.5/pprint_3-0.9.5.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_3/1.5.0/scalajs-env-nodejs_3-1.5.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.20.2/scalajs-sbt-test-adapter_2.13-1.20.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.3/zip-input-stream-0.1.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.12.4/options_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.12.4/directives_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.12.4/scala-cli-bsp-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.12.4/test-runner_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.12.4/tasty-lib_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.6/windows-ansi-0.0.6.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/cache-util/2.1.25-M23/cache-util-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-paths/2.1.25-M23/coursier-paths-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.25-M23/coursier-util_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/versions_2.13/0.5.1/versions_2.13-0.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.4.0/scala-xml_2.13-2.4.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metaconfig-pprint_3/0.18.2/metaconfig-pprint_3-0.18.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.4/paiges-core_3-0.4.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.18/scala-reflect-2.13.18.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.42.2/google-http-client-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.42.2/google-http-client-apache-v2-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/1.10.0/google-auth-library-oauth2-http-1.10.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.1/geny_3-1.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-zip/0.11.8/os-zip-0.11.8.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.83/bcprov-jdk18on-1.83.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jni/3.25.0/jline-terminal-jni-3.25.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-native/3.25.0/jline-native-3.25.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.7/scala3-compiler_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.15.2/scalameta_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.15/scalap-2.13.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.17/scalapb-runtime_2.13-0.11.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.10/tools_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.1/fansi_3-0.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_3/1.5.0/scalajs-js-envs_3-1.5.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.3.3/bloop-config_2.13-2.3.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.12.4/core_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.4/using_directives-1.1.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.12.4/build-macros_3-1.12.4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/is-terminal/0.1.2/is-terminal-0.1.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/1.10.0/google-auth-library-credentials-1.10.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-gson/1.42.2/google-http-client-gson-1.42.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.7/scala3-interfaces-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.7/tasty-core_3-3.3.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.8.0-scala-1/scala-asm-9.8.0-scala-1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.7/compiler-interface-1.10.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.15.2/parsers_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.17/lenses_2.13-0.11.17.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.10/nir_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.10/util_3-0.5.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_3/1.2.0/scalajs-logging_3-1.2.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-rifle_2.13/2.0.19/bloop-rifle_2.13-2.0.19.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.25-M23/coursier-jvm_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.3.2/dependency_3-0.3.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/7.5.0.202512021534-r/org.eclipse.jgit-7.5.0.202512021534-r.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.1/scalajs-env-jsdom-nodejs_2.13-1.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface-1.10.7.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.15.2/trees_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/libdaemon_2.13/0.0.12/libdaemon_2.13-0.0.12.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.25-M23/coursier_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-archive-cache_2.13/2.1.25-M23/coursier-archive-cache_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.25-M23/coursier-env_2.13-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-exec/2.1.25-M23/coursier-exec-2.1.25-M23.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.15.2/common_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/io_2.13/4.15.2/io_2.13-4.15.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.1/plexus-archiver-4.10.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/tika/tika-core/3.2.3/tika-core-3.2.3.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.7-4/zstd-jni-1.5.7-4.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.5.1/plexus-io-3.5.1.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/io/airlift/aircompressor/0.27/aircompressor-0.27.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.10/xz-1.10.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/home/fedor/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar, scala.cli.ScalaCli, bsp, /home/fedor/BMSTU/OFP/lab2)
+2026.04.22 12:21:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/fedor/BMSTU/OFP/lab2/.metals/bsp.trace.json or /home/fedor/.cache/metals/bsp.trace.json
+апр. 22, 2026 12:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+апр. 22, 2026 12:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+апр. 22, 2026 12:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:09 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+апр. 22, 2026 12:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+апр. 22, 2026 12:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+апр. 22, 2026 12:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:09 WARN  no build target for: /home/fedor/BMSTU/OFP/lab2/Main.scala
+апр. 22, 2026 12:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:08 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+апр. 22, 2026 12:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2026.04.22 12:21:09 WARN  no build target for: /home/fedor/BMSTU/OFP/lab2/Main.scala
+апр. 22, 2026 12:21:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+апр. 22, 2026 12:21:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+апр. 22, 2026 12:21:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.22 12:21:09 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:09 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:09 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:09 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:09 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:09 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:10 WARN  no build target for: /home/fedor/BMSTU/OFP/lab2/Main.scala
+2026.04.22 12:21:10 INFO  no build target found for /home/fedor/BMSTU/OFP/lab2/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.22 12:21:12 INFO  Scala CLI: Starting compilation server
+2026.04.22 12:21:14 INFO  Connected to Scala CLI server v1.12.4
+2026.04.22 12:21:14 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:21:15 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.22 12:21:15 INFO  time: indexed workspace in 2.23s
+2026.04.22 12:21:20 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:21:20 INFO  time: compiled lab2_d5c0a6989e in 5.74s
+2026.04.22 12:21:20 INFO  Scala CLI started for /home/fedor/BMSTU/OFP/lab2
+2026.04.22 12:21:20 WARN  no build tool detected in workspace '/home/fedor/BMSTU/OFP/lab2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.04.22 12:21:20 WARN  Build server is not auto-connectable.
+2026.04.22 12:28:18 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:28:18 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:28:19 INFO  time: compiled lab2_d5c0a6989e in 1.01s
+2026.04.22 12:28:19 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:28:20 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:28:20 INFO  time: compiled lab2_d5c0a6989e in 0.56s
+2026.04.22 12:28:21 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:28:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:28:21 INFO  time: compiled lab2_d5c0a6989e in 0.56s
+2026.04.22 12:28:43 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:28:43 INFO  time: compiled lab2_d5c0a6989e in 0.22s
+2026.04.22 12:28:45 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:28:45 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:28:45 INFO  time: compiled lab2_d5c0a6989e in 0.38s
+2026.04.22 12:30:00 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:30:00 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:30:00 INFO  time: compiled lab2_d5c0a6989e in 0.38s
+2026.04.22 12:30:04 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:30:04 INFO  time: compiled lab2_d5c0a6989e in 0.74s
+2026.04.22 12:30:08 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:30:08 INFO  time: compiled lab2_d5c0a6989e in 0.48s
+2026.04.22 12:30:21 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:30:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:30:21 INFO  time: compiled lab2_d5c0a6989e in 0.32s
+2026.04.22 12:30:28 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:30:28 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:30:28 INFO  time: compiled lab2_d5c0a6989e in 0.3s
+2026.04.22 12:35:15 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:35:15 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:35:15 INFO  time: compiled lab2_d5c0a6989e in 0.42s
+2026.04.22 12:36:15 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:36:15 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:36:15 INFO  time: compiled lab2_d5c0a6989e in 0.3s
+2026.04.22 12:36:16 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:36:16 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:36:16 INFO  time: compiled lab2_d5c0a6989e in 0.28s
+2026.04.22 12:36:18 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:36:18 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:36:18 INFO  time: compiled lab2_d5c0a6989e in 0.28s
+2026.04.22 12:36:19 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:36:19 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:36:19 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.22 12:36:21 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:36:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:36:21 INFO  time: compiled lab2_d5c0a6989e in 0.25s
+2026.04.22 12:36:23 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:36:23 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:36:23 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.22 12:38:03 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:03 INFO  time: compiled lab2_d5c0a6989e in 0.17s
+2026.04.22 12:38:07 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:07 INFO  time: compiled lab2_d5c0a6989e in 0.14s
+2026.04.22 12:38:16 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:16 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.22 12:38:28 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:28 INFO  time: compiled lab2_d5c0a6989e in 0.13s
+2026.04.22 12:38:35 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:35 INFO  time: compiled lab2_d5c0a6989e in 0.14s
+2026.04.22 12:38:40 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:40 INFO  time: compiled lab2_d5c0a6989e in 0.13s
+2026.04.22 12:38:43 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:43 INFO  time: compiled lab2_d5c0a6989e in 0.11s
+2026.04.22 12:38:50 INFO  Created report: Optional[file:///home/fedor/BMSTU/OFP/lab2/Main.scala]
+2026.04.22 12:38:50 INFO  empty definition using pc, found symbol in pc: _empty_/IntSeqSet# (full report at: "/home/fedor/BMSTU/OFP/lab2/.metals/.reports/metals-full/2026-04-22/r_empty-definition_(lab2_5fd5c0a6989e)_12-38-50-403.md")
+2026.04.22 12:38:52 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:52 INFO  time: compiled lab2_d5c0a6989e in 0.13s
+2026.04.22 12:38:53 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:38:53 INFO  time: compiled lab2_d5c0a6989e in 98ms
+2026.04.22 12:39:01 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:39:01 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:39:01 INFO  time: compiled lab2_d5c0a6989e in 0.29s
+2026.04.22 12:40:07 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:40:07 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:40:07 INFO  time: compiled lab2_d5c0a6989e in 0.26s
+2026.04.22 12:41:20 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:41:20 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:41:20 INFO  time: compiled lab2_d5c0a6989e in 0.35s
+2026.04.22 12:42:46 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:42:46 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.22 12:43:37 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:43:37 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:43:37 INFO  time: compiled lab2_d5c0a6989e in 0.22s
+2026.04.22 12:46:23 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:46:23 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:46:23 INFO  time: compiled lab2_d5c0a6989e in 0.24s
+2026.04.22 12:46:55 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:46:55 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:46:55 INFO  time: compiled lab2_d5c0a6989e in 0.27s
+2026.04.22 12:46:56 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 12:46:56 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 12:46:56 INFO  time: compiled lab2_d5c0a6989e in 0.19s
+2026.04.22 13:05:42 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:05:42 INFO  time: compiled lab2_d5c0a6989e in 0.31s
+2026.04.22 13:05:44 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:05:44 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:05:44 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.22 13:13:21 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:13:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:13:21 INFO  time: compiled lab2_d5c0a6989e in 0.28s
+2026.04.22 13:14:02 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:14:02 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:14:02 INFO  time: compiled lab2_d5c0a6989e in 0.3s
+2026.04.22 13:15:10 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:15:10 INFO  time: compiled lab2_d5c0a6989e in 0.12s
+2026.04.22 13:15:12 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:15:12 INFO  time: compiled lab2_d5c0a6989e in 0.35s
+error while checking new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking {
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+}
+error while checking case None =>
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking elements match
+  {
+    case Some(set) =>
+      set.size
+    case None =>
+      throw new UnsupportedOperationException(_root_.scala.Predef.???)
+  }
+error while checking def size: Int =
+  elements match
+    {
+      case Some(set) =>
+        set.size
+      case None =>
+        throw new UnsupportedOperationException(_root_.scala.Predef.???)
+    }
+error while checking  private(private val containsFunc: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        for a <- this.elements; b <- other.elements yield a union b
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking class ArranSet private(private val containsFunc: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        for a <- this.elements; b <- other.elements yield a union b
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking package <empty> {
+  class ArranSet private(private val containsFunc: (Seq[Int]) => Boolean,
+    private val elements: Option[Set[Seq[Int]]]) {
+    def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+    def +(other: ArranSet): ArranSet =
+      {
+        val newElements =
+          for a <- this.elements; b <- other.elements yield a union b
+        new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+      }
+    def size: Int =
+      elements match
+        {
+          case Some(set) =>
+            set.size
+          case None =>
+            throw new UnsupportedOperationException(_root_.scala.Predef.???)
+        }
+  }
+  module object Main extends App {
+    val s1 = ArranSet(4, 3)
+    val s2 = ArranSet(3, 2)
+    println(s1.in(Seq(0, 1, 2)))
+    println(s1.in(Seq(0, 0, 1)))
+    println(s1.size)
+    val union = s1 + s2
+    println(union.in(Seq(1, 2)))
+    println(union.in(Seq(2, 3, 4)))
+    println(union.size)
+  }
+}
+2026.04.22 13:17:49 INFO  Created report: Optional[file:///home/fedor/BMSTU/OFP/lab2/Main.scala]
+2026.04.22 13:17:49 INFO  java.lang.AssertionError: assertion failed: position error, parent span does not contain child span
+parent      = new UnsupportedOperationException(_root_.scala.Predef.???) # -1,
+parent span = <528..585>,
+child       = _root_.scala.Predef.??? # -1,
+child span  = <562..590> (full report at: "/home/fedor/BMSTU/OFP/lab2/.metals/.reports/metals-full/2026-04-22/r_compiler-error_(lab2_5fd5c0a6989e)_13-17-49-398.md")
+2026.04.22 13:17:49 WARN  Could not find semantic tokens for: file:///home/fedor/BMSTU/OFP/lab2/Main.scala
+error while checking new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking {
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+}
+error while checking case None =>
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking elements match
+  {
+    case Some(set) =>
+      set.size
+    case None =>
+      throw new UnsupportedOperationException(_root_.scala.Predef.???)
+  }
+error while checking def size: Int =
+  elements match
+    {
+      case Some(set) =>
+        set.size
+      case None =>
+        throw new UnsupportedOperationException(_root_.scala.Predef.???)
+    }
+error while checking  private(private val containsFunc: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        for a <- this.elements; b <- other.elements yield a union b
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking class ArranSet private(private val containsFunc: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        for a <- this.elements; b <- other.elements yield a union b
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking package <empty> {
+  class ArranSet private(private val containsFunc: (Seq[Int]) => Boolean,
+    private val elements: Option[Set[Seq[Int]]]) {
+    def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+    def +(other: ArranSet): ArranSet =
+      {
+        val newElements =
+          for a <- this.elements; b <- other.elements yield a union b
+        new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+      }
+    def size: Int =
+      elements match
+        {
+          case Some(set) =>
+            set.size
+          case None =>
+            throw new UnsupportedOperationException(_root_.scala.Predef.???)
+        }
+  }
+  module object Main extends App {
+    val s1 = ArranSet(4, 3)
+    val s2 = ArranSet(3, 2)
+    println(s1.in(Seq(0, 1, 2)))
+    println(s1.in(Seq(0, 0, 1)))
+    println(s1.size)
+    val union = s1 + s2
+    println(union.in(Seq(1, 2)))
+    println(union.in(Seq(2, 3, 4)))
+    println(union.size)
+  }
+}
+2026.04.22 13:17:49 INFO  Created report: Optional[file:///home/fedor/BMSTU/OFP/lab2/Main.scala]
+2026.04.22 13:17:49 INFO  java.lang.AssertionError: assertion failed: position error, parent span does not contain child span
+parent      = new UnsupportedOperationException(_root_.scala.Predef.???) # -1,
+parent span = <528..574>,
+child       = _root_.scala.Predef.??? # -1,
+child span  = <562..579> (full report at: "/home/fedor/BMSTU/OFP/lab2/.metals/.reports/metals-full/2026-04-22/r_compiler-error_(lab2_5fd5c0a6989e)_13-17-49-901.md")
+2026.04.22 13:17:49 WARN  Could not find semantic tokens for: file:///home/fedor/BMSTU/OFP/lab2/Main.scala
+error while checking new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking {
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+}
+error while checking case None =>
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking elements match
+  {
+    case Some(set) =>
+      set.size
+    case None =>
+      throw new UnsupportedOperationException(_root_.scala.Predef.???)
+  }
+error while checking def size: Int =
+  elements match
+    {
+      case Some(set) =>
+        set.size
+      case None =>
+        throw new UnsupportedOperationException(_root_.scala.Predef.???)
+    }
+error while checking  private(private val containsFunc: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        for a <- this.elements; b <- other.elements yield a union b
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking class ArranSet private(private val containsFunc: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        for a <- this.elements; b <- other.elements yield a union b
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking package <empty> {
+  class ArranSet private(private val containsFunc: (Seq[Int]) => Boolean,
+    private val elements: Option[Set[Seq[Int]]]) {
+    def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+    def +(other: ArranSet): ArranSet =
+      {
+        val newElements =
+          for a <- this.elements; b <- other.elements yield a union b
+        new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+      }
+    def size: Int =
+      elements match
+        {
+          case Some(set) =>
+            set.size
+          case None =>
+            throw new UnsupportedOperationException(_root_.scala.Predef.???)
+        }
+  }
+  module object Main extends App {
+    val s1 = ArranSet(4, 3)
+    val s2 = ArranSet(3, 2)
+    println(s1.in(Seq(0, 1, 2)))
+    println(s1.in(Seq(0, 0, 1)))
+    println(s1.size)
+    val union = s1 + s2
+    println(union.in(Seq(1, 2)))
+    println(union.in(Seq(2, 3, 4)))
+    println(union.size)
+  }
+}
+2026.04.22 13:17:49 INFO  Created report: Optional[file:///home/fedor/BMSTU/OFP/lab2/Main.scala]
+2026.04.22 13:17:49 INFO  java.lang.AssertionError: assertion failed: position error, parent span does not contain child span
+parent      = new UnsupportedOperationException(_root_.scala.Predef.???) # -1,
+parent span = <528..567>,
+child       = _root_.scala.Predef.??? # -1,
+child span  = <562..572> (full report at: "/home/fedor/BMSTU/OFP/lab2/.metals/.reports/metals-full/2026-04-22/r_compiler-error_(lab2_5fd5c0a6989e)_13-17-50-208.md")
+2026.04.22 13:17:50 WARN  Could not find semantic tokens for: file:///home/fedor/BMSTU/OFP/lab2/Main.scala
+error while checking new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking {
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+}
+error while checking case None =>
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking elements match
+  {
+    case Some(set) =>
+      set.size
+    case None =>
+      throw new UnsupportedOperationException(_root_.scala.Predef.???)
+  }
+error while checking def size: Int =
+  elements match
+    {
+      case Some(set) =>
+        set.size
+      case None =>
+        throw new UnsupportedOperationException(_root_.scala.Predef.???)
+    }
+error while checking  private(private val containsFunc: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        for a <- this.elements; b <- other.elements yield a union b
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking class ArranSet private(private val containsFunc: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        for a <- this.elements; b <- other.elements yield a union b
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking package <empty> {
+  class ArranSet private(private val containsFunc: (Seq[Int]) => Boolean,
+    private val elements: Option[Set[Seq[Int]]]) {
+    def in(seq: Seq[Int]): Boolean = containsFunc(seq)
+    def +(other: ArranSet): ArranSet =
+      {
+        val newElements =
+          for a <- this.elements; b <- other.elements yield a union b
+        new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+      }
+    def size: Int =
+      elements match
+        {
+          case Some(set) =>
+            set.size
+          case None =>
+            throw new UnsupportedOperationException(_root_.scala.Predef.???)
+        }
+  }
+  module object Main extends App {
+    val s1 = ArranSet(4, 3)
+    val s2 = ArranSet(3, 2)
+    println(s1.in(Seq(0, 1, 2)))
+    println(s1.in(Seq(0, 0, 1)))
+    println(s1.size)
+    val union = s1 + s2
+    println(union.in(Seq(1, 2)))
+    println(union.in(Seq(2, 3, 4)))
+    println(union.size)
+  }
+}
+2026.04.22 13:17:50 INFO  Created report: Optional[file:///home/fedor/BMSTU/OFP/lab2/Main.scala]
+2026.04.22 13:17:50 INFO  java.lang.AssertionError: assertion failed: position error, parent span does not contain child span
+parent      = new UnsupportedOperationException(_root_.scala.Predef.???) # -1,
+parent span = <528..565>,
+child       = _root_.scala.Predef.??? # -1,
+child span  = <562..570> (full report at: "/home/fedor/BMSTU/OFP/lab2/.metals/.reports/metals-full/2026-04-22/r_compiler-error_(lab2_5fd5c0a6989e)_13-17-50-623.md")
+2026.04.22 13:17:50 WARN  Could not find semantic tokens for: file:///home/fedor/BMSTU/OFP/lab2/Main.scala
+2026.04.22 13:17:51 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:17:51 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:17:51 INFO  time: compiled lab2_d5c0a6989e in 0.36s
+2026.04.22 13:18:30 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:18:30 INFO  time: compiled lab2_d5c0a6989e in 0.63s
+2026.04.22 13:18:35 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:18:35 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:18:35 INFO  time: compiled lab2_d5c0a6989e in 0.49s
+2026.04.22 13:18:38 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:18:38 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:18:38 INFO  time: compiled lab2_d5c0a6989e in 0.19s
+2026.04.22 13:21:47 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:21:47 INFO  time: compiled lab2_d5c0a6989e in 0.11s
+2026.04.22 13:21:51 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:21:51 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:21:51 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.22 13:32:14 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:32:14 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:32:14 INFO  time: compiled lab2_d5c0a6989e in 0.2s
+2026.04.22 13:33:29 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 13:33:29 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 13:33:29 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.22 14:04:02 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:04:02 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:04:02 INFO  time: compiled lab2_d5c0a6989e in 0.24s
+2026.04.22 14:04:06 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:04:06 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:04:06 INFO  time: compiled lab2_d5c0a6989e in 0.18s
+2026.04.22 14:16:47 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:16:47 INFO  time: compiled lab2_d5c0a6989e in 0.12s
+2026.04.22 14:16:49 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:16:49 INFO  time: compiled lab2_d5c0a6989e in 0.14s
+error while checking new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking {
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+}
+error while checking case None =>
+  throw new UnsupportedOperationException(_root_.scala.Predef.???)
+error while checking elements match
+  {
+    case Some(set) =>
+      set.size
+    case None =>
+      throw new UnsupportedOperationException(_root_.scala.Predef.???)
+  }
+error while checking def size: Int =
+  elements match
+    {
+      case Some(set) =>
+        set.size
+      case None =>
+        throw new UnsupportedOperationException(_root_.scala.Predef.???)
+    }
+error while checking  private(private val isValid: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = isValid(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        (this.elements, other.elements) match
+          {
+            case (Some(a), Some(b)) =>
+              Some(a ++ b)
+            case (Some(a), None) =>
+              Some(a)
+            case (None, Some(b)) =>
+              Some(b)
+            case _ =>
+              None
+          }
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking class ArranSet private(private val isValid: (Seq[Int]) => Boolean,
+  private val elements: Option[Set[Seq[Int]]]) {
+  def in(seq: Seq[Int]): Boolean = isValid(seq)
+  def +(other: ArranSet): ArranSet =
+    {
+      val newElements =
+        (this.elements, other.elements) match
+          {
+            case (Some(a), Some(b)) =>
+              Some(a ++ b)
+            case (Some(a), None) =>
+              Some(a)
+            case (None, Some(b)) =>
+              Some(b)
+            case _ =>
+              None
+          }
+      new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+    }
+  def size: Int =
+    elements match
+      {
+        case Some(set) =>
+          set.size
+        case None =>
+          throw new UnsupportedOperationException(_root_.scala.Predef.???)
+      }
+}
+error while checking package <empty> {
+  class ArranSet private(private val isValid: (Seq[Int]) => Boolean,
+    private val elements: Option[Set[Seq[Int]]]) {
+    def in(seq: Seq[Int]): Boolean = isValid(seq)
+    def +(other: ArranSet): ArranSet =
+      {
+        val newElements =
+          (this.elements, other.elements) match
+            {
+              case (Some(a), Some(b)) =>
+                Some(a ++ b)
+              case (Some(a), None) =>
+                Some(a)
+              case (None, Some(b)) =>
+                Some(b)
+              case _ =>
+                None
+            }
+        new ArranSet(seq => this.in(seq) || other.in(seq), newElements)
+      }
+    def size: Int =
+      elements match
+        {
+          case Some(set) =>
+            set.size
+          case None =>
+            throw new UnsupportedOperationException(_root_.scala.Predef.???)
+        }
+  }
+  module object ArranSet {
+    private def generate(k: Int, m: Int): Set[Seq[Int]] =
+      (0 to k).toList.combinations(m).flatMap(_$1 => _$1.permutations).toSet
+    private def isValid(k: Int, m: Int)(seq: Seq[Int]): Boolean =
+      seq.length == m && seq.distinct.length == m &&
+        seq.forall(x => x >= 0 && x <= k)
+    def apply(k: Int, m: Int): ArranSet =
+      {
+        val elems = generate(k, m)
+        new ArranSet(isValid(k, m), Some(elems))
+      }
+  }
+  module object Main extends App {
+    val s1 = ArranSet(4, 3)
+    val s2 = ArranSet(3, 2)
+    println(s1.in(Seq(0, 1, 2)))
+    println(s1.in(Seq(0, 0, 1)))
+    println(s1.size)
+    val union = s1 + s2
+    println(union.in(Seq(1, 2)))
+    println(union.in(Seq(2, 3, 4)))
+    println(union.size)
+  }
+}
+2026.04.22 14:16:52 INFO  Created report: Optional[file:///home/fedor/BMSTU/OFP/lab2/Main.scala]
+2026.04.22 14:16:52 INFO  java.lang.AssertionError: assertion failed: position error, parent span does not contain child span
+parent      = new UnsupportedOperationException(_root_.scala.Predef.???) # -1,
+parent span = <655..689>,
+child       = _root_.scala.Predef.??? # -1,
+child span  = <689..694> (full report at: "/home/fedor/BMSTU/OFP/lab2/.metals/.reports/metals-full/2026-04-22/r_compiler-error_(lab2_5fd5c0a6989e)_14-16-52-152.md")
+2026.04.22 14:16:52 WARN  Could not find semantic tokens for: file:///home/fedor/BMSTU/OFP/lab2/Main.scala
+2026.04.22 14:16:53 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:16:53 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:16:53 INFO  time: compiled lab2_d5c0a6989e in 0.29s
+2026.04.22 14:18:15 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:18:15 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:18:15 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.22 14:18:28 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:18:28 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:18:28 INFO  time: compiled lab2_d5c0a6989e in 0.28s
+2026.04.22 14:18:42 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:18:42 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:18:42 INFO  time: compiled lab2_d5c0a6989e in 0.19s
+2026.04.22 14:18:49 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:18:49 INFO  time: compiled lab2_d5c0a6989e in 0.12s
+2026.04.22 14:18:52 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:18:52 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:18:52 INFO  time: compiled lab2_d5c0a6989e in 0.29s
+апр. 22, 2026 2:29:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2370
+2026.04.22 14:29:42 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:29:42 INFO  time: compiled lab2_d5c0a6989e in 0.14s
+2026.04.22 14:29:44 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:29:44 INFO  time: compiled lab2_d5c0a6989e in 0.12s
+2026.04.22 14:29:46 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:29:46 INFO  time: compiled lab2_d5c0a6989e in 90ms
+2026.04.22 14:29:48 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:29:48 INFO  time: compiled lab2_d5c0a6989e in 74ms
+2026.04.22 14:29:50 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:29:50 INFO  time: compiled lab2_d5c0a6989e in 0.11s
+2026.04.22 14:29:51 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:29:51 INFO  time: compiled lab2_d5c0a6989e in 0.1s
+2026.04.22 14:29:53 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:29:53 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:29:53 INFO  time: compiled lab2_d5c0a6989e in 0.18s
+2026.04.22 14:39:10 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:39:10 INFO  time: compiled lab2_d5c0a6989e in 0.85s
+2026.04.22 14:39:25 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:39:25 INFO  time: compiled lab2_d5c0a6989e in 0.48s
+2026.04.22 14:39:28 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:39:28 INFO  time: compiled lab2_d5c0a6989e in 0.44s
+апр. 22, 2026 2:39:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2821
+2026.04.22 14:39:39 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:39:39 INFO  time: compiled lab2_d5c0a6989e in 0.58s
+2026.04.22 14:40:02 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:40:02 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.22 14:40:13 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:40:13 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:40:13 INFO  time: compiled lab2_d5c0a6989e in 0.19s
+2026.04.22 14:40:17 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:40:17 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:40:17 INFO  time: compiled lab2_d5c0a6989e in 0.18s
+2026.04.22 14:40:20 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:40:20 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:40:20 INFO  time: compiled lab2_d5c0a6989e in 0.18s
+2026.04.22 14:42:09 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:42:09 INFO  time: compiled lab2_d5c0a6989e in 0.66s
+2026.04.22 14:42:13 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:42:13 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:42:13 INFO  time: compiled lab2_d5c0a6989e in 0.19s
+2026.04.22 14:42:49 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:42:49 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:42:49 INFO  time: compiled lab2_d5c0a6989e in 0.22s
+апр. 22, 2026 2:48:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3137
+2026.04.22 14:49:09 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:09 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:49:09 INFO  time: compiled lab2_d5c0a6989e in 0.24s
+2026.04.22 14:49:10 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:10 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:49:10 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.22 14:49:14 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:14 INFO  time: compiled lab2_d5c0a6989e in 90ms
+2026.04.22 14:49:17 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:17 INFO  time: compiled lab2_d5c0a6989e in 0.14s
+2026.04.22 14:49:18 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:18 INFO  time: compiled lab2_d5c0a6989e in 0.14s
+2026.04.22 14:49:20 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:20 INFO  time: compiled lab2_d5c0a6989e in 78ms
+2026.04.22 14:49:22 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:22 INFO  time: compiled lab2_d5c0a6989e in 0.11s
+2026.04.22 14:49:23 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:23 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:49:23 INFO  time: compiled lab2_d5c0a6989e in 0.26s
+2026.04.22 14:49:46 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:46 INFO  time: compiled lab2_d5c0a6989e in 0.31s
+2026.04.22 14:49:54 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:49:54 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:49:54 INFO  time: compiled lab2_d5c0a6989e in 0.19s
+2026.04.22 14:50:01 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:50:01 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:50:01 INFO  time: compiled lab2_d5c0a6989e in 0.27s
+2026.04.22 14:50:03 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:50:03 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:50:03 INFO  time: compiled lab2_d5c0a6989e in 0.15s
+2026.04.22 14:50:15 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:50:15 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:50:15 INFO  time: compiled lab2_d5c0a6989e in 0.16s
+2026.04.22 14:52:22 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:52:22 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:52:22 INFO  time: compiled lab2_d5c0a6989e in 0.24s
+2026.04.22 14:52:24 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:52:24 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:52:24 INFO  time: compiled lab2_d5c0a6989e in 0.17s
+2026.04.22 14:52:59 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:52:59 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:52:59 INFO  time: compiled lab2_d5c0a6989e in 0.22s
+2026.04.22 14:53:03 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:53:03 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:53:03 INFO  time: compiled lab2_d5c0a6989e in 0.18s
+2026.04.22 14:56:17 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:56:17 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:56:17 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.22 14:56:55 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:56:55 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:56:55 INFO  time: compiled lab2_d5c0a6989e in 0.22s
+2026.04.22 14:57:01 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:57:01 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:57:01 INFO  time: compiled lab2_d5c0a6989e in 0.16s
+2026.04.22 14:57:07 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:57:07 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:57:07 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.22 14:58:59 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:58:59 INFO  time: compiled lab2_d5c0a6989e in 0.21s
+2026.04.22 14:59:02 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:02 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:59:02 INFO  time: compiled lab2_d5c0a6989e in 0.24s
+2026.04.22 14:59:04 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:04 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:59:04 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.22 14:59:07 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:07 INFO  time: compiled lab2_d5c0a6989e in 85ms
+2026.04.22 14:59:08 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:08 INFO  time: compiled lab2_d5c0a6989e in 64ms
+2026.04.22 14:59:14 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:14 INFO  time: compiled lab2_d5c0a6989e in 87ms
+2026.04.22 14:59:16 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:16 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:59:16 INFO  time: compiled lab2_d5c0a6989e in 0.16s
+2026.04.22 14:59:21 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:59:21 INFO  time: compiled lab2_d5c0a6989e in 0.16s
+2026.04.22 14:59:23 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:23 INFO  time: compiled lab2_d5c0a6989e in 80ms
+2026.04.22 14:59:25 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:25 INFO  time: compiled lab2_d5c0a6989e in 0.12s
+2026.04.22 14:59:29 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 14:59:29 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 14:59:29 INFO  time: compiled lab2_d5c0a6989e in 0.17s
+2026.04.22 15:02:14 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 15:02:14 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 15:02:14 INFO  time: compiled lab2_d5c0a6989e in 0.23s
+2026.04.22 15:02:17 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 15:02:17 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 15:02:17 INFO  time: compiled lab2_d5c0a6989e in 0.22s
+2026.04.22 15:02:21 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 15:02:21 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 15:02:21 INFO  time: compiled lab2_d5c0a6989e in 0.17s
+2026.04.22 15:02:39 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 15:02:39 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 15:02:39 INFO  time: compiled lab2_d5c0a6989e in 0.25s
+2026.04.22 15:02:48 INFO  compiling lab2_d5c0a6989e (1 scala source)
+2026.04.22 15:02:48 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2026.04.22 15:02:48 INFO  time: compiled lab2_d5c0a6989e in 0.24s
