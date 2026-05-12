@@ -1,18 +1,18 @@
 class ArranSet private (
-    private val isValid: Seq[Int] => Boolean,
-    private val elements: Set[Seq[Int]]
+    private val check: Seq[Int] => Boolean,
+    private val elems: Set[Seq[Int]]
 ) {
   def in(seq: Seq[Int]): Boolean =
-    isValid(seq)
+    check(seq)
 
   def +(other: ArranSet): ArranSet =
     new ArranSet(
       seq => this.in(seq) || other.in(seq),
-      this.elements ++ other.elements
+      this.elems ++ other.elems
     )
 
   def size: Int =
-    elements.size
+    elems.size
 }
 
 object ArranSet {
@@ -32,11 +32,11 @@ object ArranSet {
     if (k < 0 || m < 0)
       throw new IllegalArgumentException()
 
-    val elems = generate(k, m)
+    val generated = generate(k, m)
 
     new ArranSet(
       seq => isValid(k, m, seq),
-      elems
+      generated
     )
   }
 }
